@@ -33,6 +33,7 @@ body{
 	position: relative;
 	padding: 0;
 	margin: 0;
+	font-family: 'Roboto Mono', monospace;
 }
 #main{
 	min-height: 550px;
@@ -58,11 +59,12 @@ body{
 #text p{
 	text-align: left;
 	font-size: 30px;
-	letter-spacing: 3px;
+
 	font-weight: bold;
 	word-spacing: 10px;
 	color:white;
 	left:0;
+	font-family: 'Roboto Mono', monospace;
 }
 #text p:nth-child(2){
 	margin-top: -30px;
@@ -223,7 +225,7 @@ form p{
 }
 #bg{
 	width: 27%;
-	background-image: url(..//img/FLAG.png);
+	background-image: url(../img/FLAG.png);
 	background-repeat: no-repeat;
 	background-position: 20% 50%;
 }
